@@ -31,6 +31,7 @@ We use this categorical data encoding technique when the features are nominal(do
 • Yeojohnson method
 
 # CODING:
+```
  # Step 1: Import Necessary Libraries
 import pandas as pd
 import numpy as np
@@ -72,6 +73,7 @@ data.to_csv('Transformed_Full_Data.csv', index=False)
 print("\nTransformation Completed Successfully.")
 print("\nTransformed Dataset Preview:")
 print(positive_data.head())
+```
 
 # RESULT:
 
